@@ -1084,12 +1084,16 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 48px;
 }
-.blog-item {
-}
 .blog-item__img-wrap {
     border-radius: 24px;
     background: #90ccff;
     padding: 24px 0 0 36px;
+}
+.blog__list .blog-item:nth-child(2) .blog-item__img-wrap {
+    background: #ff997e;
+}
+.blog__list .blog-item:last-child .blog-item__img-wrap {
+    background: #5bd6e2;
 }
 .blog-item__time {
     color: #fff;
@@ -1098,8 +1102,7 @@ body {
     font-weight: 400;
     line-height: 1.21429;
 }
-.blog-item__link {
-}
+
 .blog-item__img {
     margin-top: 25px;
     width: 100%;
