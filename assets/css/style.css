@@ -1129,3 +1129,113 @@ body {
     font-weight: 400;
     line-height: 1.71429;
 }
+
+/* ! footer */
+.footer {
+    margin-top: 52px;
+    background: linear-gradient(to right, #fff6ed 42%, transparent 42%);
+}
+.footer__inner {
+    display: flex;
+}
+.footer__left {
+    padding: 114px 0 148px;
+    width: 42%;
+}
+.subscribe-form {
+    margin-top: 40px;
+    width: 268px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 91, 46, 0.25);
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.subscribe-form__input {
+    flex: 1;
+    outline: none;
+    border: none;
+    height: 100%;
+    padding: 0 22px;
+    border-radius: 999px;
+    font-size: 1.4rem;
+}
+
+.subscribe-form__input::placeholder {
+    color: #656689;
+    font-size: 1.2rem;
+    font-weight: 300;
+    opacity: 0.9;
+    line-height: 1.16667;
+}
+.subscribe-form__submit {
+    width: 45px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: -1px;
+}
+.footer__heading {
+    margin-top: 68px;
+    color: #000958;
+    font-family: Sora;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.11111;
+}
+.social__list {
+    display: flex;
+    margin-top: 16px;
+    gap: 16px;
+}
+.social__item {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__right {
+    flex: 1;
+    padding: 52px 0 48px 0;
+}
+.footer__row {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 58px 137px;
+    margin-left: 129px;
+}
+
+.footer__list {
+    margin-top: 14px;
+}
+.footer__item-cta {
+    color: #656689;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2;
+}
+.footer__item-cta:hover {
+    text-decoration: underline;
+}
+
+.footer__copyright {
+    margin: 52px 0 0 22px;
+    color: #656689;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.16667;
+}
