@@ -44,3 +44,13 @@ btnPrev.addEventListener("click", function (e) {
     slider(currentIndex);
     addActive(currentIndex);
 });
+
+reviewDots.forEach((btn) => {
+    btn.addEventListener("click", function (e) {
+        if (!btn.classList.contains("review__dot--active")) {
+            currentIndex = parseInt(e.target.dataset.index);
+            slider(currentIndex);
+            addActive(currentIndex);
+        }
+    });
+});
